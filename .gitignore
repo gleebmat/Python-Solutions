@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # .gitignore - tells Git what NOT to track
 .venv/
 .env
@@ -5,3 +6,16 @@ __pycache__/
 *.pyc
 .DS_Store
 .vscode/
+=======
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+>>>>>>> d7712bb2ae502d9b53fa1fd14df04c9dfa9d2a24
